@@ -1,8 +1,26 @@
 aid: settle
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/settle.png
 name: Settle
-description: 'Settle is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Settle is a financial operations platform built for consumer packaged
+  goods (CPG) brands and ecommerce companies, unifying procurement, accounts payable
+  automation, and working capital financing in one back office. Teams create and manage
+  purchase orders, track goods received and true landed costs, collect and approve
+  bills, pay vendors with real-time visibility, and access flexible inventory and
+  growth financing ($20K-$15M) underwritten from payables and purchasing data. Founded
+  in 2019 and backed by Ribbit Capital, Kleiner Perkins, and Founders Fund, Settle
+  has funded more than $3 billion to brands. A developer API covering bill pay, payments,
+  and landed-cost data is in early access via a public waitlist.'
 url: https://raw.githubusercontent.com/api-evangelist/settle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Payments
+- Accounts Payable
+- Procurement
+- Working Capital
+- Bill Pay
+- CPG
+- Ecommerce
+- Financing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.settle.com
+- type: DeveloperPortal
+  url: https://www.settle.com/api
+- type: Pricing
+  url: https://www.settle.com/pricing
+- type: SignUp
+  url: https://app.settle.co/sign-up/payers/product
+- type: Support
+  url: https://help.settle.com/en/
+- type: Blog
+  url: https://www.settle.com/blog
+- type: TermsOfService
+  url: https://app.settle.co/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.settle.com/privacy-policy
+- type: DomainSecurity
+  url: security/settle-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
