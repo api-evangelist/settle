@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/settle/integrations
+- https://n8n.io/integrations/settle/
+- https://composio.dev/toolkits/settle
+- https://monid.ai/tools/settle
+checked:
+- https://composio.dev/toolkits/settle
+- https://monid.ai/tools/settle
+- https://n8n.io/integrations/settle/
+- https://zapier.com/apps/settle/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
